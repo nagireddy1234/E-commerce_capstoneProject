@@ -11,6 +11,7 @@ outline-color: red;
 cursor:pointer !important;
 display: inline-block;
 margin: 0.2rem 0.5rem 0.2rem 0;
+color:var(--lightBlue)
 transition:all 0.5s ease-in-out;
   &:hover {
   background:var(--lightBlue);
