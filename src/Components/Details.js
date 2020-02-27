@@ -21,7 +21,7 @@ return(
 <div className="col-10 mx-auto col-md-6 my-3">
   <img src={img} className="img-fluid" alt="" />
 </div>
-</div>
+
   {/* prdoduct info */}
   <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
   <h1>model : {title}</h1>
@@ -54,7 +54,7 @@ return(
       {inCart ? "in cart" : "add to cart"}
     </ButtonContainer>
   </div>
-  </div>
+  </div> </div>
 </div>
 )
 }}
